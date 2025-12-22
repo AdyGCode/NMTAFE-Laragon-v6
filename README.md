@@ -21,7 +21,7 @@ Easiest way to work is to:
 
 - Open **two** Windows File Explorers using <kbd>WIN>+<kbd>E</kbd>
 - Move the first window to the LEFT using <kbd>WIN</kbd>+<kbd>LEFT ARROW</kbd>
-- Move the second window to the RIGHTY using <kbd>WIN</kbd>+<kbd>RIGHT ARROW</kbd>
+- Move the second window to the RIGHT using <kbd>WIN</kbd>+<kbd>RIGHT ARROW</kbd>
 - In the first window locate and open the downloads folder
 - Right mouse click the file you downloaded, and select "Extract All".
   - This will create a folder such as "`postman-1.23.4`"
