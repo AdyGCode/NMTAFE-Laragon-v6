@@ -11,7 +11,7 @@ Laragon V6 for North Metro TAFE students with the current software used for stud
     - Drag and drop the Laragon folder to `C:\` or your preferred location
 
 ## Contents
-<div style="font-size:0.8rem">
+<div style="font-size:0.8rem !important">
 
 | Purpose             | Website                                                                                                                 | Version                      | Download                                                                                                            | Decompress into subfolder of |
 |:--------------------|:------------------------------------------------------------------------------------------------------------------------|:-----------------------------|---------------------------------------------------------------------------------------------------------------------|:-----------------------------|
