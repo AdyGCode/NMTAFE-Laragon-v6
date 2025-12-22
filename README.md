@@ -1,41 +1,84 @@
 # NMTAFE-Laragon-v6
-Copy of Laragon V6 for North Metro TAFE students with the current software used for studies.
+
+Laragon V6 for North Metro TAFE students with the current software used for studies.
+
+## Laragon
+
+- Executable (EXE): Original installer file - no updates
+    - Double click to execute and follow prompts
+- Compressed (ZIP): Base installation with some updates
+    - Open in your preferred compressed file application
+    - Drag and drop the Laragon folder to `C:\` or your preferred location
 
 ## Contents
 
-| Software | Version | Repository | Website |
-|----------|----------|--------------------------------------|--------------------------------------|
-| Laragon | 6 | | |
-| Apache HTTPD | 2.4.66 |  |  https://httpd.apache.org (https://www.apachelounge.com/download/) |
-| DB Browser for SQLite  | 3.13.1   | | |
-| Deno | 1.42.1 | | |
-| Laradumps | 4.9.1 | | |
-| Mailpit   | 1.20.5   |  | https://mailpit.axllent.org |
-| MariaDB  | 11.4.3  | | |
-| Meilisearch | 1.21.0 | | |
-| MongoDB | 8.0.8   |  | https://www.mongodb.com |
-| Mosquitto | 2.0.22   | | https://mosquitto.org/ |
-| MySQL  |  8.0.30 | | |
-| NodeJS | 22.21.1 | | |
-| NodeJS | 24.12.0 | | |
-| PHP |  8.5.1 NTS Win32  | | |
-| Pie | 1.3.3 | added to PHP | https://github.com/php/pie | 
-| PostgreSQL | 17.0 |  | https://www.postgresql.org |
-| Redis   | 5.0.14.1  |  | https://redis.io |
-| Valkey | .. | | https://valkey.io |
-| VS Code (Green/Insiders) | .. |  | https://code.visualstudio.com/insiders |
-| VS Code (Blue) | .. | |[https://code.visualstudio.com](https://code.visualstudio.com/Download) |
-| Postman | 11.76.9 | | https://www.postman.com |
-| BGInfo | 4.33 | | https://learn.microsoft.com/en-us/sysinternals/downloads/bginfo | 
-| Python | 3.14 | | https://www.python.org |
+| Purpose                    | Website                                                                                                              | Version                      | Download                                                                                                            | Decompress into subfolder of |
+|:---------------------------|:---------------------------------------------------------------------------------------------------------------------|:-----------------------------|---------------------------------------------------------------------------------------------------------------------|:-----------------------------|
+| **Main System**            | [Laragon](https://laragon.org)                                                                                       | 6                            | [Laragon WAMP 6](https://github.com/AdyGCode/NMTAFE-Laragon-v6/releases/download/v1.0/laragon-wamp-v6.exe)          |                              |
+|                            |                                                                                                                      |                              |                                                                                                                     |                              |
+| **Configurations**         | <hr style="background:#444">                                                                                         | <hr style="background:#444"> | <hr style="background:#444">                                                                                        | <hr style="background:#444"> |
+| Configurations / Apache    | Apache Configs                                                                                                       | -                            | [ETC Apache](https://github.com/AdyGCode/NMTAFE-Laragon-v6/releases/download/v1.1/etc-apache2.zip)                  | `laragon/etc/`               |
+|                            |                                                                                                                      |                              |                                                                                                                     |                              |
+| **Database**               | <hr style="background:#444">                                                                                         | <hr style="background:#444"> | <hr style="background:#444">                                                                                        | <hr style="background:#444"> |
+| Database / Admin           | [DBeaver](https://dbeaver.io)                                                                                        | 25.3.1                       | [DBeaver](https://github.com/AdyGCode/NMTAFE-Laragon-v6/releases/download/v1.1/dbeaver-25.3.1.zip)                  | `laragon/bin/`               |
+| Database / Admin           | [DBGate](https://www.dbgate.io)                                                                                      | 6.8.0                        | [DBGate](https://github.com/AdyGCode/NMTAFE-Laragon-v6/releases/download/v1.1/dbgate-6.8.0.zip)                     | `laragon/bin/`               |
+| Database / Admin           | [DB Browser for SQLite](https://sqlitebrowser.org)                                                                   | 3.13.1                       | [DB Browser](https://github.com/AdyGCode/NMTAFE-Laragon-v6/releases/download/v1.0/DB.Browser.for.SQLite.zip)        | `laragon/bin/`               |
+| Database / Admin           | [MongoDB Compass](https://www.mongodb.com/products/tools/compass)                                                    | 1.48.2                       | [MongoDB Compass](https://github.com/AdyGCode/NMTAFE-Laragon-v6/releases/download/v1.1/MongoDBCompass-1.48.2.zip)   | `laragon/bin/`               |
+| Database / Admin           | [phpMyAdmin](https://phpmyadmin.net)                                                                                 | 5.2                          | [PhpMyAdmin](https://github.com/AdyGCode/NMTAFE-Laragon-v6/releases/download/v1.1/phpMyAdmin-5.2.zip)               | `laragon/etc/apps`           |
+|                            |                                                                                                                      |                              |                                                                                                                     |                              |
+| **Editors & IDEs**         | <hr style="background:#444">                                                                                         | <hr style="background:#444"> | <hr style="background:#444">                                                                                        | <hr style="background:#444"> |
+| Editors & IDEs / Debugging | [Laradumps](https://laradumps.dev)                                                                                   | 4.10.1                       | [Laradumps](https://github.com/AdyGCode/NMTAFE-Laragon-v6/releases/download/v1.1/laradumps-4.10.zip)                | `laragon/bin/`               |
+| Editors & IDEs / MQTT      | [MQTTX](https://mqttx.app)                                                                                           | 1.12.1                       | [MQTTX](https://github.com/AdyGCode/NMTAFE-Laragon-v6/releases/download/v1.1/MQTTX-1.21.1.zip)                      | `laragon/bin/`               |
+| Editors & IDEs / Code      | [NotePad++](https://notepad-plus-plus.org)                                                                           | 8.8.9                        | [Notepad++](https://github.com/AdyGCode/NMTAFE-Laragon-v6/releases/download/v1.1/notepad-pp-8.8.9.zip)              | `laragon/bin`                |
+| Editors & IDEs / API       | [Postman](https://www.postman.com)                                                                                   | 11.76.9                      | [Postman](https://github.com/AdyGCode/NMTAFE-Laragon-v6/releases/download/v1.1/Postman-11.76.9.zip)                 | `laragon/bin/`               |
+| Editors & IDEs / Code      | [VS Code: Blue](https://code.visualstudio.com)                                                                       | 1.107.0                      | [VS Code Release & Insiders](https://github.com/AdyGCode/NMTAFE-Laragon-v6/releases/download/v1.1/VSCode-1.0.x.zip) | `laragon/bin/`               |
+| Editors & IDEs / Code      | [VS Code: Green/Insiders](https://code.visualstudio.com/insiders)                                                    | 1.108.0                      | [VS Code Release & Insiders](https://github.com/AdyGCode/NMTAFE-Laragon-v6/releases/download/v1.1/VSCode-1.0.x.zip) | `laragon/bin/`               |
+|                            |                                                                                                                      |                              |                                                                                                                     |                              |
+| **Languages**              | <hr style="background:#444">                                                                                         | <hr style="background:#444"> | <hr style="background:#444">                                                                                        | <hr style="background:#444"> |
+| Languages / JS Runtime     | [Deno](https://deno.com)                                                                                             | 1.42.1                       | [Deno](https://github.com/AdyGCode/NMTAFE-Laragon-v6/releases/download/v1.1/deno-2.6.3.zip)                         | `laragon/bin/nodejs`         |
+| Languages / JS Runtime     | [NodeJS](https://nodejs.org)                                                                                         | 22.21.1                      | [NodeJS 22](https://github.com/AdyGCode/NMTAFE-Laragon-v6/releases/download/v1.1/node-v22.21.1.zip)                 | `laragon/bin/nodejs`         |
+| Languages / JS Runtime     | [NodeJS](https://nodejs.org)                                                                                         | 24.12.0                      | [NodeJS 24](https://github.com/AdyGCode/NMTAFE-Laragon-v6/releases/download/v1.1/node-v24.12.0.zip)                 | `laragon/bin/nodejs`         |
+| Languages / PHP            | [PHP](https://php.net)                                                                                               | 8.4.9 NTS Win32              | [PHP 8.4](https://github.com/AdyGCode/NMTAFE-Laragon-v6/releases/download/v1.0/php-8.4.9-nts-Win32-vs17-x64.zip)    | `laragon/bin/php`            |
+| Languages / PHP            | [PHP](https://php.net)                                                                                               | 8.5.1 NTS Win32              | [PHP 8.5](https://github.com/AdyGCode/NMTAFE-Laragon-v6/releases/download/v1.1/php-8.5.1-nts-Win32-vs17-x64.zip)    | `laragon/bin/php`            |
+| Languages / Support        | [PHP Pie](https://github.com/php/pie)                                                                                | 1.3.3                        | added to PHP                                                                                                        | `laragon/bin/`               |
+| Languages / Python         | [Python](https://www.python.org)                                                                                     | 3.10                         | [Python](https://github.com/AdyGCode/NMTAFE-Laragon-v6/releases/download/v1.1/python-3.10.zip)                      | `laragon/bin/Python`         |
+| Languages / Python         | [Python](https://www.python.org)                                                                                     | 3.13                         | [Python](https://github.com/AdyGCode/NMTAFE-Laragon-v6/releases/download/v1.1/python-3.13.zip)                      | `laragon/bin/Python`         |
+| Languages / Python         | [Python](https://www.python.org)                                                                                     | 3.14                         | [Python](https://github.com/AdyGCode/NMTAFE-Laragon-v6/releases/download/v1.1/Python314.zip)                        | `laragon/bin/Python`         |
+|                            |                                                                                                                      |                              |                                                                                                                     |                              |
+| **Server**                 | <hr style="background:#444">                                                                                         | <hr style="background:#444"> | <hr style="background:#444">                                                                                        | <hr style="background:#444"> |
+| Server / Web               | [Apache HTTPD](https://httpd.apache.org) [Apache Lounge - Windows](https://www.apachelounge.com/download/)           | 2.4.66                       | [Apache HTTPD](https://github.com/AdyGCode/NMTAFE-Laragon-v6/releases/download/v1.1/apache.zip)                     | `laragon/bin/apache`         |
+| Server / Databases / SQL   | [MariaDB](https://mariadb.com)                                                                                       | 11.4.3                       | [MariaDB](https://github.com/AdyGCode/NMTAFE-Laragon-v6/releases/download/v1.1/mariadb-12.1.2-winx64.zip)           | `laragon/bin/`               |
+| Server / Mail              | [Mailpit](https://mailpit.axllent.org)                                                                               | 1.20.5                       | [Mailpit](https://github.com/AdyGCode/NMTAFE-Laragon-v6/releases/download/v1.1/MailPit-1.28.0.zip)                  | `laragon/bin/`               |
+| Server / Search            | [Meilisearch](https://www.meilisearch.com/)                                                                          | 1.21.0                       | [Meilisearch](https://github.com/AdyGCode/NMTAFE-Laragon-v6/releases/download/v1.1/meilisearch.zip)                 | `laragon/bin/`               |
+| Server / Databases / NoSQL | [Memcached](https://memcached.org/)                                                                                  | 1.6.8                        | [Memcached](https://github.com/AdyGCode/NMTAFE-Laragon-v6/releases/download/v1.1/memcached.zip)                     |                              |
+| Server / Databases / NoSQL | [MongoDB](https://www.mongodb.com) > [Community Ed](https://www.mongodb.com/products/self-managed/community-edition) | 8.0.8                        | [MongoDB](https://github.com/AdyGCode/NMTAFE-Laragon-v6/releases/download/v1.1/mongodb-8.2.3.zip)                   | `laragon/bin/`               |
+| Server / MQTT              | [Mosquitto](https://mosquitto.org/)                                                                                  | 2.0.22                       | [Mosquitto](https://github.com/AdyGCode/NMTAFE-Laragon-v6/releases/download/v1.1/mosquitto-2.0.22.zip)              | `laragon/bin/`               |
+| Server / Databases / SQL   | [MySQL](https://mysql.com)                                                                                           | 8.0.30                       | [MySQL](https://github.com/AdyGCode/NMTAFE-Laragon-v6/releases/download/v1.1/mysql-9.4.0-winx64.zip)                | `laragon/bin/`               |
+| Server / Web               | [Nginx](https://nginx.org/)                                                                                          | 1.29.4                       | [Nginx](https://github.com/AdyGCode/NMTAFE-Laragon-v6/releases/download/v1.1/nginx.zip)                             | `laragon/bin/nginx`          |
+| Server / Databases / SQL   | [PostgreSQL](https://www.postgresql.org)                                                                             | 17.0                         | [PostgreSQL](https://github.com/AdyGCode/NMTAFE-Laragon-v6/releases/download/v1.1/postgresql-18.1-2.zip)            | `laragon/bin/`               |
+| Server / Databases / NoSQL | [Redis](https://redis.io)                                                                                            | 5.0.14.1                     | [Redis](https://github.com/AdyGCode/NMTAFE-Laragon-v6/releases/download/v1.0/Redis-5.0.14.1-x64.zip)                | `laragon/bin/`               |
+| Server / Databases / NoSQL | [Rethink](https://rethinkdb.com)                                                                                     | 2.4.3                        | [RethinkDB](https://github.com/AdyGCode/NMTAFE-Laragon-v6/releases/download/v1.1/rethinkdb-2.4.3.zip)               |                              |
+|                            |                                                                                                                      |                              |                                                                                                                     |                              |
+| **System**                 | <hr style="background:#444">                                                                                         | <hr style="background:#444"> | <hr style="background:#444">                                                                                        | <hr style="background:#444"> |
+| System / Information       | [BGInfo](https://learn.microsoft.com/en-us/sysinternals/downloads/bginfo)                                            | 4.33                         | [BG Info](https://github.com/AdyGCode/NMTAFE-Laragon-v6/releases/download/v1.1/BGInfo-4.33.zip)                     | `laragon/bin/`               |
+|                            |                                                                                                                      |                              |                                                                                                                     |                              |
 
-## Maintained
+The Compressed files contain a named folder, which will be added to the location given above when you drag and drop to
+the named folder.
 
-| Maintainers | Name | GitHub |
-|--------------|-----------------|----------------------------------|
-| Primary| Adrian Gould | [Ady G Code](https://github.com/AdyGCode) |
-| General | John Robertson |  [...](https://github.com/) |
-| General | Para O'Kelly |  [...](https://github.com/)|
-| General | Amir Khan |  [...](https://github.com/) |
-| General | John Robertson |  [...](https://github.com/) |
-| General | ... |  [...](https://github.com/) |
+Note that NotePad++, Postman and some others need to replace the current folders, and they do NOT have sub folders. This
+is the same for the Apache Configs files.
+
+The VSCode installations (Release and Insiders) are both contained in the code folder. We suggest removing the current
+code folder and replacing with this.
+
+## Maintainers
+
+| Maintainers | Name           | GitHub                                    |
+|-------------|----------------|-------------------------------------------|
+| Primary     | Adrian Gould   | [Ady G Code](https://github.com/AdyGCode) |
+| General     | John Robertson | [...](https://github.com/)                |
+| General     | Para O'Kelly   | [...](https://github.com/)                |
+| General     | Amir Khan      | [...](https://github.com/)                |
+| General     | John Robertson | [...](https://github.com/)                |
+| General     | ...            | [...](https://github.com/)                |
