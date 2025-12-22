@@ -11,6 +11,7 @@ Laragon V6 for North Metro TAFE students with the current software used for stud
     - Drag and drop the Laragon folder to `C:\` or your preferred location
 
 ## Contents
+<div style="font-size:0.9rem">
 
 | Purpose             | Website                                                                                                                 | Version                      | Download                                                                                                            | Decompress into subfolder of |
 |:--------------------|:------------------------------------------------------------------------------------------------------------------------|:-----------------------------|---------------------------------------------------------------------------------------------------------------------|:-----------------------------|
@@ -62,6 +63,8 @@ Laragon V6 for North Metro TAFE students with the current software used for stud
 | **System**          | <hr style="background:#444">                                                                                            | <hr style="background:#444"> | <hr style="background:#444">                                                                                        | <hr style="background:#444"> |
 | - Information       | [BGInfo](https://learn.microsoft.com/en-us/sysinternals/downloads/bginfo)                                               | 4.33                         | [BG Info](https://github.com/AdyGCode/NMTAFE-Laragon-v6/releases/download/v1.1/BGInfo-4.33.zip)                     | `laragon/bin/`               |
 |                     |                                                                                                                         |                              |                                                                                                                     |                              |
+
+</div>
 
 The Compressed files contain a named folder, which will be added to the location given above when you drag and drop to
 the named folder.
