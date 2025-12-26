@@ -154,7 +154,7 @@ You will also find more information on updating to later versions of some of the
 |                        |                                                                                                                         |                              |                                                                                                                      |                              |
 | **System**             | <hr style="background:#444">                                                                                            | <hr style="background:#444"> | <hr style="background:#444">                                                                                         | <hr style="background:#444"> |
 | - Information          | [BGInfo](https://learn.microsoft.com/en-us/sysinternals/downloads/bginfo)                                               | 4.33                         | [BG Info](https://github.com/AdyGCode/NMTAFE-Laragon-v6/releases/download/v1.1/BGInfo-4.33.zip)                      |                              |
-| - Web Root Replacement | [www](https://github.com/AdyGCode/NMTAFE-Laragon-v6/releases/download/v1.1/www.zip)                                     |                              | `laragon`                                                                                                            |                              |
+| - Web Root Replacement | n/a                                                                                                                     | 1.0                          | [www](https://github.com/AdyGCode/NMTAFE-Laragon-v6/releases/download/v1.1/www.zip)                                  | `laragon`                    |
 
 </div>
 
