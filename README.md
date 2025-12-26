@@ -99,6 +99,12 @@ path to suit are available from the FAQs on the [SQuASH help system](https://hel
 
 You will also find more information on updating to later versions of some of the above installations on SQuASH.
 
+### Replacement `www` Folder
+
+We have created a small replacement for the `www` folder with a couple of extra links and presented in a way we believe focuses attention.
+
+![picture: Image of updated WWW root (index) page](images/www-root-image.png)
+
 ## Contents
 
 <div style="font-size:0.8rem !important">
