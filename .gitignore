@@ -29,3 +29,12 @@ fabric.properties
 .idea/httpRequests
 .idea/caches/build_file_checksums.ser
 .obsidian/
+/.idea/.gitignore
+/.idea/copilot.data.migration.ask2agent.xml
+/.idea/deployment.xml
+/.idea/material_theme_project_new.xml
+/.idea/modules.xml
+/.idea/NMTAFE-Laragon-v6.iml
+/.idea/php.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/vcs.xml
